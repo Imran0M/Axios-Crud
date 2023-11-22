@@ -1,0 +1,47 @@
+.input {
+  width: 40%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(250, 249, 249);
+}
+
+@media only screen and (max-width: 650px) {
+  .input {
+    width: 60%;
+  }
+}
+
+.mouse {
+  cursor: pointer;
+}
+
+.card-container{
+  color: bisque;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  
+}
+
+.card{
+  margin-top: 25px;
+  width: 250px;
+  padding: 10px;
+
+}
+.button-edit, .button-delete{
+width: 100px;
+}
+.button-container{
+ display: flex;
+ justify-content: center;
+ gap: 0.5rem;
+}
